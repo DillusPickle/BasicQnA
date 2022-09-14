@@ -1,0 +1,48 @@
+html {
+    background-color: #0D0C12;
+}
+
+body {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  background-color: #0D0C12;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white
+}
+
+button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: white;
+  background-color: #0D0C12;
+  font-size: calc(10px + 2vmin);
+  border-color: white;
+}
+
+#like_button_container {
+  margin-top: 10%;
+}
+
+img {
+  animation: App-logo-spin infinite 20s linear;
+  margin-left: 46%;
+  image-rendering: pixelated;
+  max-width: 100px;
+  max-height: 150px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
